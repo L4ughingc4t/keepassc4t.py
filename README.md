@@ -1,4 +1,4 @@
-# pykpassc4t.py
+# keepassc4t.py
 
 john + keepass2john は KDBX 3（KeePass v2）形式 のみ対応
 KDBX 4の場合
