@@ -19,3 +19,9 @@ python3 keepassc4t.py recovery.kdbx /usr/share/wordlists/rockyou.txt
 
 keepass_list_c4t.pyで取得したパスワードを使用して中身を列挙
 python3 kpasslistc4t.py recovery.kdbx {password}
+
+
+一括
+expkeepassc4t.py
+
+python3 expkeepassc4t.py recovery.kdbx rockyou.txt
