@@ -15,3 +15,7 @@ source ~/venvs/keepassenv/bin/activate
 pip install pykeepass
 
 python3 keepassc4t.py recovery.kdbx /usr/share/wordlists/rockyou.txt
+
+
+keepass_list_c4t.pyで取得したパスワードを使用して中身を列挙
+python3 kpasslistc4t.py recovery.kdbx {password}
