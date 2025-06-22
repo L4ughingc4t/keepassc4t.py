@@ -25,3 +25,6 @@ python3 kpasslistc4t.py recovery.kdbx {password}
 expkeepassc4t.py
 
 python3 expkeepassc4t.py recovery.kdbx rockyou.txt
+
+ crackmapexec smb ｛ターゲットIP｝ -u creds_users.txt -p creds_passwords.txt
+
